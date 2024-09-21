@@ -1,0 +1,19 @@
+body {
+    margin: 10px;
+    background-color: antiquewhite;
+}
+
+header {
+    background-color: rgba(105, 54, 35, 0.603); 
+    margin: 5px;
+    border-radius: 20px;
+    padding-right: 150px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.logo-header{
+    width: 8%;
+}
