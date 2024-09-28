@@ -7,26 +7,30 @@
     <title>Pão na Chapa</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
     <header>
-        <img class="logo-header" src="img/logo.png" width="120px" height="120px"
+        <img class="logo-header" src="img/logo.png" width="140px" height="140px"
             alt="Pão, Pão Na Chapa, Logo, Logo Padaria, Salgado, Doce, Sonho, Melhor Sonho de Creme, Padaria Pão Na Chapa" />
-        <nav>
+        <nav class="menu">
             <ul>
                 <li>
-                    <a>Início</a>
+                    <a href="#Introducao">Início</a>
                 </li>
                 <li>
-                    <a>Sobre</a>
+                    <a href="#sobre-nos">Sobre</a>
                 </li>
                 <li>
-                    <a>Produtos</a>
+                    <a href="#produtos">Produtos</a>
                 </li>
                 <li>
-                    <a>Contato</a>
+                    <a href="#contato">Contato</a>
                 </li>
             </ul>
         </nav>
@@ -34,18 +38,26 @@
 
     <main>
 
-        <section>
-            <h2>Bem-Vindo a Padaria Pão na Chapa</h2>
-            <p>Na Padaria Pão Na Chapa,
-                temos o melhor sonho de creme do Brasil,
-                além de seu peso e tamanho fora do comum,
-                sua massa é feita com os melhores ingredientes e com muito esforço e amor.
-                Nosso preço é completamente acessível e temos uma variedade gigantesca de produtos,
-                não perca tempo e venha correndo para nossa padaria! </p>
+        <section id="Introducao">
+            <div>
+                <h2>Bem-Vindo a Padaria Pão na Chapa</h2>
+                <p>Na Padaria Pão Na Chapa,
+                    temos o melhor sonho de creme do Brasil,
+                    além de seu peso e tamanho fora do comum,
+                    sua massa é feita com os melhores ingredientes e com muito esforço e amor.
+                    Nosso preço é completamente acessível e temos uma variedade gigantesca de produtos,
+                    não perca tempo e venha correndo para nossa padaria! </p>
+            </div>
+            <div>
+                <img src="./img/pao.png"
+                    alt="pão, cesta de pães, muitos pães, todo tipo de pão, pão de sal, pão integral" width="220px"
+                    height="220px" />
+            </div>
+
         </section>
 
 
-        <section>
+        <section id="sobre-nos">
             <h2>Sobre Nós</h2>
 
             <p>Agora falando um pouco sobre nossa padaria,
@@ -60,23 +72,27 @@
         </section>
 
 
-        <section>
+        <section id="produtos">
             <h2>Nossos Produtos</h2>
 
-            <div>
+            <div class="conteudo-produtos">
 
-                <div>
+                <div class="produto">
                     <h3>Pães</h3>
-                    <p> Temos uma variedade de pães, como pão francês, pão de forma, baguetes e muito mais</p>
+                    <p> Temos uma variedade de pães, como pão francês, pão de forma, baguetes, pão integral, pão doce, e
+                        muito mais. Além da variedade imensa de produtos,
+                        tudo que vendemos é fresquinho
+                    </p>
                 </div>
 
-                <div>
+                <div class="produto">
                     <h3>Doces</h3>
-                    <p> Oferecemos bolos fresquinhos , tortas e uma selecão de doces como sonhos, brigadeiros e
+                    <p> Oferecemos bolos fresquinhos , tortas e uma selecão de doces como sonhos, brigadeiros,beijinhos,
+                        cocadas e
                         brownies.</p>
                 </div>
 
-                <div>
+                <div class="produto">
                     <h3>Salgados</h3>
                     <p> Seja para um lanche rápido ou uma festa, nossos salgados são fritos na hora, com opções como
                         coxinhas, risoles, esfihas, mini pizzas, e muito mais.</p>
@@ -90,13 +106,13 @@
     </main>
 
     <footer>
-        <section>
+        <section id="contato">
             <h2>Contato</h2>
             <p>Email: paonachapa@gmail.com</p>
             <p>Telefone: (11) 4002-8922</p>
             <p>Endereço: Rua do Pão, 123 - Centro - São Paulo</p>
         </section>
-        <p>&copy; 2024 - Padaria Pão Na Chapa -
+        <p class="direitos-autorais">&copy; 2024 - Padaria Pão Na Chapa -
             Todos Direitos Reservados (Ou Quase Todos)
         </p>
     </footer>

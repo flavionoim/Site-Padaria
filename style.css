@@ -1,10 +1,15 @@
+html {
+    scroll-behavior: smooth;
+    font-family: "Montserrat", sans-serif;
+}
+
 body {
     margin: 10px;
     background-color: antiquewhite;
 }
 
 header {
-    background-color: rgba(105, 54, 35, 0.603); 
+    background-color: rgba(105, 54, 35, 0.603);
     margin: 5px;
     border-radius: 20px;
     padding-right: 150px;
@@ -14,6 +19,89 @@ header {
 }
 
 
-.logo-header{
+.logo-header {
     width: 8%;
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+#Introducao {
+    display: flex;
+    height: 250px;
+    align-items: center;
+}
+
+#Introducao div {
+    width: 50%;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-top: 50px;
+}
+
+#sobre-nos {
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: rgba(109, 77, 64, 0.459);
+    border-radius: 20px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#produtos {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#produtos h2 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.conteudo-produtos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    background-color: rgba(70, 52, 20, 0.568);
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.produto {
+    width: 200px;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    text-align: center;
+    padding-top: 25px;
+
+
+}
+
+footer p {
+    margin: 0;
+}
+
+.direitos-autorais {
+    padding-top: 25px;
+    padding-bottom: 25px;
+
 }
